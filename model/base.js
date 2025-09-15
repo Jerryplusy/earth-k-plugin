@@ -2,8 +2,8 @@ export default class base {
   constructor(e = {}) {
     this.e = e;
     this.userId = e?.user_id;
-    this.model = "earth-k-plugin";
-    this._path = process.cwd().replace(/\\/g, "/");
+    this.model = 'earth-k-plugin';
+    this._path = process.cwd().replace(/\\/g, '/');
   }
 
   get prefix() {

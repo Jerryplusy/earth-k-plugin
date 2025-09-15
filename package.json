@@ -20,6 +20,9 @@
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2",
     "image-size": "^1.0.2",
-    "systeminformation":"^5.21.18"
+    "systeminformation": "^5.21.18"
+  },
+  "devDependencies": {
+    "prettierrc": "0.0.0-5"
   }
 }
